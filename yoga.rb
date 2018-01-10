@@ -1,10 +1,10 @@
 @shopping_cart = []
 @products = [
   {r_number: 111, name: "Mat Blue", price: 20},
-  {r_number: 111, name: "Mat Green", price: 20},
-  {r_number: 112, name: "Block", price: 15},
-  {r_number: 113, name: "Yoga Tea", price: 20},
-  {r_number: 114, name: "Book about Yoga", price: 20},
+  {r_number: 112, name: "Mat Green", price: 20},
+  {r_number: 113, name: "Block", price: 15},
+  {r_number: 114, name: "Yoga Tea", price: 20},
+  {r_number: 115, name: "Book about Yoga", price: 20},
 ]
 
 def welcome
@@ -37,6 +37,7 @@ def look_for_product(r_number)
       return product
     end
   end
+  return nil
 end
 
 def print_cart
